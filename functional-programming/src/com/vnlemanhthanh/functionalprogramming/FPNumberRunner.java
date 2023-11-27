@@ -5,9 +5,17 @@
 package com.vnlemanhthanh.functionalprogramming;
 
 import java.util.List;
+import java.util.stream.IntStream;
 
 public class FPNumberRunner {
     public static void main(String[] args) {
+        List.of("Apple", "Ant", "Bat").stream().map(s -> s.toLowerCase() + "-" + s.length())
+                .forEach(p -> System.out.printf("%s ", p));
+        System.out.println();
+
+        IntStream.range(1,11).map(e -> e*e).forEach(p -> System.out.printf("%d ", p));
+        System.out.println();
+
         List<Integer> list = List.of(3,5,3,213,45,5,7);
         System.out.println(list);
         list.stream().sorted().forEach(integer -> System.out.printf("%d ", integer));
