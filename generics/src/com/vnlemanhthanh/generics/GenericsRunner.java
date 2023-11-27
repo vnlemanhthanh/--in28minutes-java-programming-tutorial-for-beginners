@@ -18,7 +18,29 @@ public class GenericsRunner {
         list.addAll(list);
     }
 
+    static double sumOfNumberList(List<? extends Number> numbers) {
+        double sum = 0.0;
+        for (Number number : numbers) {
+            sum += number.doubleValue();
+        }
+        return sum;
+    }
+
+    static void addACoupleOfValue(List<? super Number> numbers) {
+        numbers.add(1);
+        numbers.add(1.0);
+        numbers.add(1.0f);
+        numbers.add(1l);
+    }
+
     public static void main(String[] args) {
+        List emplyList = new ArrayList<Number>();
+        addACoupleOfValue(emplyList);
+        System.out.println(emplyList);
+
+        System.out.println(sumOfNumberList(List.of(1,2,3,4,5)));
+        System.out.println(sumOfNumberList(List.of(1.1,2.1,3.1,4.1,5.1)));
+        System.out.println(sumOfNumberList(List.of(1l,2l,3l,4l,5l)));
 
         String value1 = doubleValue(new String());
         Integer number1 = doubleValue(Integer.valueOf(5));
