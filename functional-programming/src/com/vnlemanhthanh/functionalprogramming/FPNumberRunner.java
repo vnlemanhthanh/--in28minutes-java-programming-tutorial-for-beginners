@@ -8,6 +8,14 @@ import java.util.List;
 
 public class FPNumberRunner {
     public static void main(String[] args) {
+        List<Integer> list = List.of(3,5,3,213,45,5,7);
+        System.out.println(list);
+        list.stream().sorted().forEach(integer -> System.out.printf("%d ", integer));
+        System.out.println();
+        list.stream().distinct().forEach(integer -> System.out.printf("%d ", integer));
+        System.out.println();
+        list.stream().sorted().map(e -> e*e).forEach(e -> System.out.printf("%d ", e));
+
         List<Integer> numbers = List.of(4,6,8,13,3,15);
         // numbers.stream().forEach(e -> System.out.println(e));
 
