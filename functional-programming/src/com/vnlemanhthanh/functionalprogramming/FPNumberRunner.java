@@ -5,10 +5,14 @@
 package com.vnlemanhthanh.functionalprogramming;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.IntStream;
 
 public class FPNumberRunner {
     public static void main(String[] args) {
+        Integer max = List.of(23, 12, 34, 53).stream().max((n1, n2) -> Integer.compare(n1, n2)).get();
+        System.out.println(max);
+
         List.of("Apple", "Ant", "Bat").stream().map(s -> s.toLowerCase() + "-" + s.length())
                 .forEach(p -> System.out.printf("%s ", p));
         System.out.println();
