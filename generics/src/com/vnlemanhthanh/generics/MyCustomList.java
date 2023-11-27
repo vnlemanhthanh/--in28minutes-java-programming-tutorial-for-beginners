@@ -20,4 +20,8 @@ public class MyCustomList<T> {
     public String toString() {
         return list.toString();
     }
+
+    public T get(int index  ) {
+        return list.get(index);
+    }
 }
