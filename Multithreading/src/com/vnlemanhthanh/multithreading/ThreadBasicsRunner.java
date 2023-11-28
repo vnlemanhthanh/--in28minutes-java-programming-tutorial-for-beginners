@@ -35,7 +35,7 @@ class Task2 implements Runnable {
 // - BLOCKED/WAITING
 // - TERMINATED/DEAD
 public class ThreadBasicsRunner {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Task1 task1 = new Task1();
         task1.setPriority(1);
         task1.start();
@@ -44,6 +44,9 @@ public class ThreadBasicsRunner {
         Thread task2Thread = new Thread(task2);
         task2Thread.setPriority(10);
         task2Thread.start();
+
+        task1.join();                   //  Communication between Threads - join method
+        task2Thread.join();
 
         System.out.println("Task3 Started");
         for (int i = 301; i <= 399 ; i++) {
