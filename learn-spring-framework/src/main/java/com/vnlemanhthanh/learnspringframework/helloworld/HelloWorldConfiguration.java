@@ -2,7 +2,7 @@
  * Copyright (c) 2023. vnlemanhthanh.com
  */
 
-package com.vnlemanhthanh.learnspringframework;
+package com.vnlemanhthanh.learnspringframework.helloworld;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
