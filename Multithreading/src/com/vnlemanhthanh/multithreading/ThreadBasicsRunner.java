@@ -28,6 +28,12 @@ class Task2 implements Runnable {
     }
 }
 
+// States of a Thread:
+// - NEW
+// - RUNNABLE
+// - RUNNING
+// - BLOCKED/WAITING
+// - TERMINATED/DEAD
 public class ThreadBasicsRunner {
     public static void main(String[] args) {
         Task1 task1 = new Task1();
