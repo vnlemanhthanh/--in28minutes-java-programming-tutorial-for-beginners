@@ -11,11 +11,18 @@ public class StudentRunner {
         Student student2 = new Student("LE", 12, 232);
         Student student3 = new Student("Cun");
 
-        int number = student3.getNumberOfMarks();
+        int number = student.getNumberOfMarks();
         System.out.println("number of marks: "+ number);
 
         int sum = student.getTotalSumOfMarks();
         System.out.println("sum of marks: " + sum);
+
+        System.out.println("maximum of marks: " + student.getMaximumMark());
+        System.out.println("minimum of marks: " + student.getMinimumMark());
+
+        System.out.println("average of marks: " + student.getAverageMark());
+
+        System.out.println(student);
 
     }
 }
