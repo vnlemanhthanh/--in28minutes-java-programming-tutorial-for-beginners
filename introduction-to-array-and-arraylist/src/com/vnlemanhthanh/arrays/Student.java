@@ -51,4 +51,12 @@ public class Student {
         return name + marks;
     }
 
+
+    public void removeMarkAtIndex(int i) {
+        marks.remove(i);
+    }
+
+    public void addNewMark(int mark) {
+        marks.add(mark);
+    }
 }
