@@ -1,0 +1,17 @@
+vi	void printNumbers(int n) {
+    for (int i = 1; i <=n; i++ ) {
+        System.out.println(i);
+}
+}
+printNumbers(
+8)
+printNumbers(100)
+void clear(){
+	System.out.println("Hello");
+}
+clear()
+void sayHello(int n) {
+	for(int i = 0; i<n; i++) {
+    		System.out.println("Hello World");
+	}
+}
