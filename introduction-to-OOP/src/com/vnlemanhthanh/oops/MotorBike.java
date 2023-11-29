@@ -5,6 +5,8 @@
 package com.vnlemanhthanh.oops;
 
 public class MotorBike {
+    int speed;
+
     void start() {
         System.out.println("Motor Bike");
     }
