@@ -19,7 +19,11 @@ public class MotorBike {
         //System.out.println(this.speed);
     }
 
+    public int getSpeed() {
+        return speed;
+    }
+
     void start() {
-        System.out.println("Motor Bike");
+        System.out.println("Bike started");
     }
 }
