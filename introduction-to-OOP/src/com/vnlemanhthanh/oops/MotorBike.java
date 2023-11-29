@@ -9,6 +9,15 @@ public class MotorBike {
     //state
     private int speed;
 
+    public MotorBike() {
+        this(5);
+        System.out.println("Constructer called");
+    }
+
+    MotorBike(int speed) {
+        this.speed = speed;
+    }
+
     //behaviour
     //method
     //inputs - int speed
