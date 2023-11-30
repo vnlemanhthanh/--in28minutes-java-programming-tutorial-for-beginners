@@ -12,13 +12,15 @@ public class Runner {
         student.setEmail("vnlemanh@gmail.com");
         student.setPhoneNumber("123456789");
 
-        Person person = new Person();
-        person.setName("Thanh");
-        person.setEmail("vnlemanh@gmail.com");
-        person.setPhoneNumber("123456789");
-        String value = person.toString();
-        System.out.println(value);
-        System.out.println(person);
+        Employee employee = new Employee();
+        employee.setName("Thanh");
+        employee.setEmail("vnlemanhthanh@gmail.com");
+        employee.setPhoneNumber("123456789");
+        employee.setTitle("Programmer");
+        employee.setEmployeeGrade('A');
+        //String value = employee.toString();
+        //System.out.println(value);
+        System.out.println(employee);
 
     }
 }
