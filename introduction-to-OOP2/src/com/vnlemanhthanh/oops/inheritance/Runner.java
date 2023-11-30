@@ -6,17 +6,17 @@ package com.vnlemanhthanh.oops.inheritance;
 
 public class Runner {
     public static void main(String[] args) {
-        Student student = new Student();
+        //Student student = new Student();
 
-        student.setName("Thanh");
-        student.setEmail("vnlemanh@gmail.com");
-        student.setPhoneNumber("123456789");
+        //student.setName("Thanh");
+        //student.setEmail("vnlemanh@gmail.com");
+        //student.setPhoneNumber("123456789");
 
-        Employee employee = new Employee();
-        employee.setName("Thanh");
+        Employee employee = new Employee("Thanh", "Programmer");
+        //employee.setName("Thanh");
         employee.setEmail("vnlemanhthanh@gmail.com");
         employee.setPhoneNumber("123456789");
-        employee.setTitle("Programmer");
+        //employee.setTitle("Programmer");
         employee.setEmployeeGrade('A');
         //String value = employee.toString();
         //System.out.println(value);

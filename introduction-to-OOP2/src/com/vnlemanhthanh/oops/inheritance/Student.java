@@ -8,6 +8,11 @@ public class Student extends Person {
     private String college;
     private int year;
 
+    public Student(String name, String college) {
+        super(name);
+        this.college = college;
+    }
+
     public String getCollege() {
         return college;
     }
