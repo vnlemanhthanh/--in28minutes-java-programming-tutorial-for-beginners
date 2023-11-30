@@ -11,5 +11,14 @@ public class Runner {
         student.setName("Thanh");
         student.setEmail("vnlemanh@gmail.com");
         student.setPhoneNumber("123456789");
+
+        Person person = new Person();
+        person.setName("Thanh");
+        person.setEmail("vnlemanh@gmail.com");
+        person.setPhoneNumber("123456789");
+        String value = person.toString();
+        System.out.println(value);
+        System.out.println(person);
+
     }
 }
