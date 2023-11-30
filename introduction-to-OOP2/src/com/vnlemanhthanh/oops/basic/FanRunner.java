@@ -2,7 +2,7 @@
  * Copyright (c) 2023. vnlemanhthanh.com
  */
 
-package com.vnlemanhthanh.oops;
+package com.vnlemanhthanh.oops.basic;
 
 public class FanRunner {
     public static void main(String[] args) {

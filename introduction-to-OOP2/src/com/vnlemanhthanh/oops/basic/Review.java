@@ -2,7 +2,7 @@
  * Copyright (c) 2023. vnlemanhthanh.com
  */
 
-package com.vnlemanhthanh.oops;
+package com.vnlemanhthanh.oops.basic;
 
 public class Review {
     private int id;
