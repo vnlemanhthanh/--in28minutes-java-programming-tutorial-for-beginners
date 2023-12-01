@@ -4,6 +4,15 @@
 
 package com.vnlemanhthanh.collections;
 
+import java.util.Comparator;
+
+class DescendingStudentComperator implements Comparator<Student> {
+
+    @Override
+    public int compare(Student o1, Student o2) {
+        return Integer.compare(o2.getId(), o1.getId());
+    }
+}
 public class Student implements Comparable<Student>{
     private int id;
     private String name;
@@ -36,6 +45,6 @@ public class Student implements Comparable<Student>{
 
     @Override
     public int compareTo(Student that) {
-        return Integer.compare(that.getId(), this.getId());
+        return Integer.compare(this.getId(), that.getId());
     }
 }

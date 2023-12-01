@@ -22,7 +22,13 @@ public class StudentsCollectionsRunner {
         System.out.println(studentsAl);
 
         Collections.sort(studentsAl);
-        System.out.println(studentsAl);
+        System.out.println("Asc " + studentsAl);
+
+        Collections.sort(studentsAl, new DescendingStudentComperator());
+        System.out.println("Desc " + studentsAl);
+
+        studentsAl.sort(new DescendingStudentComperator());
+        System.out.println("Desc " + studentsAl);
 
     }
 
