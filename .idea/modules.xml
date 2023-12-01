@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/collections/collections.iml" filepath="$PROJECT_DIR$/collections/collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/exception-handling/exception-handling.iml" filepath="$PROJECT_DIR$/exception-handling/exception-handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/files/files.iml" filepath="$PROJECT_DIR$/files/files.iml" />
       <module fileurl="file://$PROJECT_DIR$/functional-programming/functional-programming.iml" filepath="$PROJECT_DIR$/functional-programming/functional-programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/in28minutes--java-programming-tutorial-for-beginners.iml" filepath="$PROJECT_DIR$/.idea/in28minutes--java-programming-tutorial-for-beginners.iml" />
