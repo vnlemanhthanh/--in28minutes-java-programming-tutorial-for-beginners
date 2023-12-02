@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/introduction-to-OOP/introduction-to-OOP.iml" filepath="$PROJECT_DIR$/introduction-to-OOP/introduction-to-OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/introduction-to-OOP2/introduction-to-OOP2.iml" filepath="$PROJECT_DIR$/introduction-to-OOP2/introduction-to-OOP2.iml" />
       <module fileurl="file://$PROJECT_DIR$/introduction-to-array-and-arraylist/introduction-to-array-and-arraylist.iml" filepath="$PROJECT_DIR$/introduction-to-array-and-arraylist/introduction-to-array-and-arraylist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modularization-1-combined/modularization-1-combined.iml" filepath="$PROJECT_DIR$/modularization-1-combined/modularization-1-combined.iml" />
       <module fileurl="file://$PROJECT_DIR$/multithreading/multithreading.iml" filepath="$PROJECT_DIR$/multithreading/multithreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/tips/tips.iml" filepath="$PROJECT_DIR$/tips/tips.iml" />
     </modules>
