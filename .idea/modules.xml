@@ -13,8 +13,12 @@
       <module fileurl="file://$PROJECT_DIR$/introduction-to-array-and-arraylist/introduction-to-array-and-arraylist.iml" filepath="$PROJECT_DIR$/introduction-to-array-and-arraylist/introduction-to-array-and-arraylist.iml" />
       <module fileurl="file://$PROJECT_DIR$/modularization/modularization.iml" filepath="$PROJECT_DIR$/modularization/modularization.iml" />
       <module fileurl="file://$PROJECT_DIR$/modularization/modularization-1-combined/modularization-1-combined.iml" filepath="$PROJECT_DIR$/modularization/modularization-1-combined/modularization-1-combined.iml" />
-      <module fileurl="file://$PROJECT_DIR$/modularization/modularization-2-service-jar/modularization-2-service-jar.iml" filepath="$PROJECT_DIR$/modularization/modularization-2-service-jar/modularization-2-service-jar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/modularization/modularization-3-consumer-jar/modularization-3-consumer-jar.iml" filepath="$PROJECT_DIR$/modularization/modularization-3-consumer-jar/modularization-3-consumer-jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modularization/modularization-2-jar/modularization-2-consumer-jar/modularization-2-consumer-jar.iml" filepath="$PROJECT_DIR$/modularization/modularization-2-jar/modularization-2-consumer-jar/modularization-2-consumer-jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modularization/modularization-2-jar/modularization-2-jar.iml" filepath="$PROJECT_DIR$/modularization/modularization-2-jar/modularization-2-jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modularization/modularization-2-jar/modularization-2-service-jar/modularization-2-service-jar.iml" filepath="$PROJECT_DIR$/modularization/modularization-2-jar/modularization-2-service-jar/modularization-2-service-jar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modularization/modularization-3-modul/modularization-3-consumer-modul/modularization-3-consumer-modul.iml" filepath="$PROJECT_DIR$/modularization/modularization-3-modul/modularization-3-consumer-modul/modularization-3-consumer-modul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modularization/modularization-3-modul/modularization-3-modul.iml" filepath="$PROJECT_DIR$/modularization/modularization-3-modul/modularization-3-modul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modularization/modularization-3-modul/modularization-3-service-modul/modularization-3-service-modul.iml" filepath="$PROJECT_DIR$/modularization/modularization-3-modul/modularization-3-service-modul/modularization-3-service-modul.iml" />
       <module fileurl="file://$PROJECT_DIR$/multithreading/multithreading.iml" filepath="$PROJECT_DIR$/multithreading/multithreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/tips/tips.iml" filepath="$PROJECT_DIR$/tips/tips.iml" />
     </modules>
